@@ -1,0 +1,24 @@
+###
+GET http://localhost:1337
+
+###
+POST http://localhost:1337
+Content-Type: application/json
+
+{ 
+  "name": "Naim",
+  "location": "Kuala Lumpur, MY"
+}
+
+###
+POST http://localhost:1337/addDosa
+Content-Type: application/json
+
+{ 
+  "dosa": "tarak",
+  "keyword": "tayar",
+  "user_id": "2"
+}
+
+###
+GET http://localhost:1337/getDosa
